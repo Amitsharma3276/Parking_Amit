@@ -24,8 +24,8 @@ export default function NavTabs() {
       <Tabs
         value={value}
         onChange={handleChange}
-        indicatorColor="primary"
-        textColor="primary"
+        
+      
         centered
       >
         <Tab label="Vehicle" onClick={() => history.push("/vehicle")} />
